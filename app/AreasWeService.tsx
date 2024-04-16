@@ -37,7 +37,7 @@ export default function AreasWeService() {
         <li className="list-disc">Stanmore</li>
       </ul>
       <p className="mt-4 text-lg leading-8 text-gray-200">
-        and all other areas around Sydney's Inner West.
+        and all other areas around Sydney&apos;s Inner West.
       </p>
 
       <div

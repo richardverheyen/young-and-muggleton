@@ -52,7 +52,8 @@ export default function Hero() {
             Personalised, Professional, Cost-Effective.
           </p>
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl mt-4">
-            Experienced Solicitors Servicing Sydney's Inner West &amp; Surrounds
+            Experienced Solicitors Servicing Sydney&apos;s Inner West &amp;
+            Surrounds
           </h2>
           <a
             href="#"

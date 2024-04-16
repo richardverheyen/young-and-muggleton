@@ -3,6 +3,7 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
+import Image from "next/image";
 
 const features = [
   {
@@ -30,7 +31,7 @@ export default function WhoWeAre() {
     <div className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1581952976147-5a2d15560349?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Product screenshot"
             className="justify-self-end w-[48rem] max-w-none rounded-xl shadow-xl float-right ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"

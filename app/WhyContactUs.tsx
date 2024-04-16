@@ -3,6 +3,7 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
+import Image from "next/image";
 
 const features = [
   {
@@ -64,7 +65,7 @@ export default function WhyContactUs() {
               </dl> */}
             </div>
           </div>
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1581952976147-5a2d15560349?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Product screenshot"
             className="w-[48rem] max-w-none rounded-xl shadow-xl float-right ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
