@@ -1,27 +1,14 @@
-import Image from "next/image";
-import Menu from "./Menu";
-import logo2 from "./Logo2.svg";
-
-const navigation = [
-  { name: "Home", href: "#" },
-  { name: "About Us", href: "#" },
-  { name: "Our Services", href: "#" },
-  { name: "Our Fees", href: "#" },
-  { name: "Contact Us", href: "#" },
-];
-
 export default function Hero() {
   return (
     <div className="relative bg-white">
-      <div className="absolute top-0 left-0 w-full h-full bg-cover bg-[url('https://images.unsplash.com/photo-1603796846097-bee99e4a601f?q=80&w=2748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-cover bg-[url('https://images.unsplash.com/photo-1635859890085-ec8cb5466806?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]"></div>
       <div className="relative px-6 py-14 lg:px-8">
         <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
           <p className="text-lg leading-8 text-gray-200">
-            Personalised, Professional, Cost-Effective.
+            Friendly, Caring, Approachable.
           </p>
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl mt-4">
-            Experienced Solicitors Servicing Sydney&apos;s Inner West &amp;
-            Surrounds
+            Local Legal Professionals Who Understand You
           </h2>
           <a
             href="#"

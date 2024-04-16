@@ -5,12 +5,11 @@ import WhatWeCanHelpWith from "@/app/WhatWeCanHelpWith";
 import WhyContactUs from "@/app/WhyContactUs";
 import AreasWeService from "@/app/AreasWeService";
 import Contact from "@/app/Contact";
-import CallUs from "./CallUs";
-import Footer from "./Footer";
+import CallUs from "@/app/CallUs";
 
 export default function Home() {
   return (
-    <main className="">
+    <>
       <Hero />
       <Badges />
       <WhoWeAre />
@@ -19,7 +18,6 @@ export default function Home() {
       <AreasWeService />
       <Contact />
       <CallUs />
-      <Footer />
-    </main>
+    </>
   );
 }
