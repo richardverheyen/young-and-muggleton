@@ -63,7 +63,7 @@ export default function WhatWeCanHelpWith() {
         </svg>
         <div className="relative mx-auto max-w-2xl lg:text-center">
           <p className="text-3xl font-bold tracking-tight text-white lg:text-gray-900 sm:text-4xl">
-            What we can help with
+            What We Can Help With
           </p>
         </div>
 
