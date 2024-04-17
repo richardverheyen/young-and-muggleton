@@ -1,15 +1,3 @@
-import Image from "next/image";
-import Menu from "./Menu";
-import logo2 from "./Logo2.svg";
-
-const navigation = [
-  { name: "Home", href: "#" },
-  { name: "About Us", href: "#" },
-  { name: "Our Services", href: "#" },
-  { name: "Our Fees", href: "#" },
-  { name: "Contact Us", href: "#" },
-];
-
 export default function Hero() {
   return (
     <div className="relative bg-white">
